@@ -1,65 +1,58 @@
 {
   "heroes": [
     {
-      "id": "78fdf45b-491d-4009-b897-bee31426f32c",
-      "name": "sdfsdf",
-      "text": "sdfsfd",
+      "id": "17a4c4f5-5fe8-463c-b334-0a84798ec554",
+      "name": "Lol",
+      "text": "dddfd",
       "element": "fire",
-      "description": "sdfsfd"
+      "description": "dddfd"
     },
     {
-      "id": "d5038cb6-bc06-4137-b973-8fd542f84c91",
-      "name": "sdfsfd",
-      "text": "sdfdsfsdfsd",
+      "id": "da638302-d779-42f8-9ea1-f936cc4b32df",
+      "name": "FF",
+      "text": "ddd",
+      "element": "water",
+      "description": "ddd"
+    },
+    {
+      "id": "d6b751f3-5138-4606-9086-d67529a5e698",
+      "name": "dfs",
+      "text": "sdfs",
       "element": "wind",
-      "description": "sdfdsfsdfsd"
-    },
-    {
-      "id": "b46eeb9a-b1b4-4797-8267-b0c72dd76756",
-      "name": "sfsfsdfsdf",
-      "text": "sfsfsd",
-      "element": "fire",
-      "description": "sfsfsd"
-    },
-    {
-      "id": "b0000aee-9d99-459c-9c83-9fe918120fca",
-      "name": "sdfsdfdfs",
-      "text": "sfsdfsdf",
-      "element": "earth",
-      "description": "sfsdfsdf"
+      "description": "sdfs"
     }
   ],
   "filters": [
     {
-      "id": 1,
+      "id": "1",
       "name": "Я владею элементом...",
       "title": "Все",
       "classNames": "btn-outline-dark",
       "value": "all"
     },
     {
-      "id": 2,
+      "id": "2",
       "name": "Огонь",
       "title": "Огонь",
       "classNames": "btn-danger",
       "value": "fire"
     },
     {
-      "id": 3,
+      "id": "3",
       "name": "Вода",
       "title": "Вода",
       "classNames": " btn-primary",
       "value": "water"
     },
     {
-      "id": 4,
+      "id": "4",
       "name": "Ветер",
       "title": "Ветер",
       "classNames": "btn-success",
       "value": "wind"
     },
     {
-      "id": 5,
+      "id": "5",
       "name": "Земля",
       "title": "Земля",
       "classNames": "btn-secondary",

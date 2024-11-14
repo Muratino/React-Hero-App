@@ -25,7 +25,7 @@ const HeroesAddForm = () => {
     useEffect(() => {
         request("http://localhost:3001/filters")
             .then(data => setArrFilter(data));
-    }, []);
+    }, []); // eslint-disable-line
 
     const renderFilterList = (arr) => {
         if (arr.length === 0) {

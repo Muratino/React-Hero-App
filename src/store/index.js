@@ -17,7 +17,7 @@ const stringMiddleware = () => (dispatch) => (action) => {
 
 
 // Функции enhancer - это функции усилитель, возможность добавлять функционал куда угодно, в store и так далее
-const enhancer = (creactStore) => (...args) => {
+const enhancer = (creactStore) => (...args) => { // eslint-disable-line
     const store = creactStore(...args);
 
     const oldDispatch = store.dispatch;

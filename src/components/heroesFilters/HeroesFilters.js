@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import { useHttp } from '../../hooks/http.hook';
 
-import { heroesFetching, newHeroesFetched, heroesFetched, heroesFetchingError } from '../../reducers/heroesSlice';
+import { heroesFetching, newHeroesFetched, heroesFetched, heroesFetchingError } from '../../reducers/heroesSlice'; // eslint-disable-line
 import { useDispatch } from 'react-redux';
 // Задача для этого компонента:
 // Фильтры должны формироваться на основании загруженных данных
@@ -19,7 +19,7 @@ const HeroesFilters = () => {
     useEffect(() => {
         request("http://localhost:3001/filters")
             .then(data => setArrFilters(data));
-    }, []);
+    }, []); // eslint-disable-line
 
     const filterHero = (e, value) => {
         const event = e.target;

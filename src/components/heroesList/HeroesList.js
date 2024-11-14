@@ -14,12 +14,11 @@ import Spinner from '../spinner/Spinner';
 const HeroesList = () => {
     const { heroes, heroesLoadingStatus } = useSelector(state => state);
     const dispatch = useDispatch();
-    const { request } = useHttp();
+    const { request } = useHttp(); // eslint-disable-line
 
     useEffect(() => {
         dispatch(fetchHeroes());
-        // eslint-disable-next-line
-    }, []);
+    }, []);  // eslint-disable-line
 
     if (heroesLoadingStatus === "loading") {
         return <Spinner />;

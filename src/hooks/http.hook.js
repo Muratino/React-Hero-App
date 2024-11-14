@@ -1,4 +1,4 @@
-import { useCallback } from "react";
+import { useCallback } from "react"; // eslint-disable-line
 
 export const useHttp = () => {
     // const [process, setProcess] = useState('waiting');
